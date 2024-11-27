@@ -1,7 +1,8 @@
 "use client";
 
+import React from "react";
 import { useState, useEffect } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { BarChart2, DollarSign, Users } from 'lucide-react'
 
 export default function DashboardPage() {
@@ -50,7 +51,7 @@ export default function DashboardPage() {
             <BarChart2 className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            Deep Thoughts
+          Voluptatum reiciendis
           </CardContent>
         </Card>
         <Card>
@@ -59,7 +60,7 @@ export default function DashboardPage() {
             <BarChart2 className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            Deep Thoughts
+          Adipisicing elit
           </CardContent>
         </Card>
         <Card>
@@ -68,7 +69,7 @@ export default function DashboardPage() {
             <BarChart2 className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            Deep Thoughts
+            Illo corporis obcaecati
           </CardContent>
         </Card>
       </div>

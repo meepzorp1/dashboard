@@ -39,19 +39,11 @@ export function Header() {
             <DropdownMenuLabel>Switch to</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <img
-                src="/placeholder.svg?height=32&width=32"
-                alt="John Doe"
-                className="mr-2 h-6 w-6 rounded-full"
-              />
+
               John Doe
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img
-                src="/placeholder.svg?height=32&width=32"
-                alt="Jane Smith"
-                className="mr-2 h-6 w-6 rounded-full"
-              />
+
               Jane Smith
             </DropdownMenuItem>
             <DropdownMenuSeparator />
@@ -67,11 +59,7 @@ export function Header() {
           <Bell className="h-5 w-5" />
         </Button>
         <Button variant="ghost" size="icon">
-          <img
-            src="/placeholder.svg?height=32&width=32"
-            alt="User avatar"
-            className="h-8 w-8 rounded-full"
-          />
+
         </Button>
       </div>
     </header>

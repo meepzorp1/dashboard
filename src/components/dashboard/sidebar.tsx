@@ -1,14 +1,16 @@
 import Link from 'next/link'
-import { Home, BarChart2, Users, Settings, Pickaxe, ShoppingBasket, CalendarDays, Landmark, Lightbulb, Gamepad } from 'lucide-react'
+import React from 'react'
+import { Home, BarChart2, Users, Settings, Pickaxe, ShoppingBasket, CalendarDays, Landmark, Lightbulb, Gamepad, TestTubeDiagonal } from 'lucide-react'
 
 const navItems = [
   { icon: Home, label: 'Dashboard', href: '/' },
   { icon: Pickaxe, label: 'Chores', href: '/chores' },
-  { icon: Landmark, label: 'Budget', href: '/tasks' },
+  { icon: Landmark, label: 'Budget', href: '/budget' },
   { icon: ShoppingBasket, label: 'Shopping', href: '/shopping' },
   { icon: CalendarDays, label: 'Calendar', href: '/calendar' },
   { icon: Lightbulb, label: 'Ideas', href: '/ideas' },
   { icon: Gamepad, label: 'Games', href: '/games' },
+  { icon: TestTubeDiagonal, label: 'Testing', href: '/testing' },
   { icon: BarChart2, label: '', href: '/analytics' },
   { icon: Users, label: '', href: '/customers' },
   { icon: Settings, label: '', href: '/settings' },

@@ -1,12 +1,13 @@
 import { Menu } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import React from 'react'
+import { Button } from '../ui/button'
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@/components/ui/sheet'
+} from '../ui/sheet'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,7 +15,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+} from '../ui/dropdown-menu'
 import { User, LogIn } from 'lucide-react'
 
 export function MobileMenu() {
